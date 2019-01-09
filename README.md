@@ -28,14 +28,79 @@ Colosseum60を購入いただきありがとうございます。
 * M2ネジ                *  16本
 * M2 7mm 六角スペーサー *  8本
 
-## あると便利な道具(ないと辛いもの)
+<table>
+  <tbody>
+    <tr>
+      <th></th>
+      <th>Colosseum44</th>
+      <th>Colosseum60</th>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th>Colosseumケース</th>
+      <td colspan="2" style="text-align: center">一対</td>
+    </tr>
+    <tr>
+      <th>Promicro</th>
+      <td colspan="2" style="text-align: center">2個</td>
+    </tr>
+    <tr>
+      <th>無限の可能性</th>
+      <td style="text-align: center">44個</td>
+      <td style="text-align: center">60個</td>
+    </tr>
+    <tr>
+      <th>SK6812mini</th>
+      <td style="text-align: center">44個</td>
+      <td style="text-align: center">60個</td>
+    </tr>
+    <tr>
+      <th>ダイオード</th>
+      <td style="text-align: center">44個</td>
+      <td style="text-align: center">60個</td>
+    </tr>
+    <tr>
+      <th>TRRS Jack</th>
+      <td colspan="2" style="text-align: center">2個</td>
+    </tr>
+    <tr>
+      <th>RESET SWITCH</th>
+      <td colspan="2" style="text-align: center">2個</td>
+    </tr>
+    <tr>
+      <th>M2ネジ</th>
+      <td colspan="2" style="text-align: center">16本</td>
+    </tr>
+    <tr>
+      <th>M2 7mm 六角スペーサー</th>
+      <td colspan="2" style="text-align: center">8本</td>
+    </tr>
+    <tr>
+      <th>MX互換スイッチ</th>
+      <td style="text-align: center">44個</td>
+      <td style="text-align: center">60個</td>
+    </tr>
+    <tr>
+      <th>キーキャップ</th>
+      <td style="text-align: center">44個</td>
+      <td style="text-align: center">60個</td>
+    </tr>
+    <tr>
+      <th>TRRSケーブル(TRSでも可)</th>
+      <td colspan="2" style="text-align: center">1本</td>
+    </tr>
+  </tbody>
+</table>
+
+## あると便利なもの(ないと辛いもの)
 * 温度調整はんだごて(言わずもがな)
 * ブレッドボード(LEDの動作確認)
 * ジャンパーピン(LEDの動作確認)
 * コンスルー(LEDの動作確認)
-* 精密ニッパー(無限の可能性のバリ取り)
-* 棒ヤスリ(無限の可能性のバリ取り)
+* 精密ニッパーまたは棒ヤスリ(無限の可能性のバリ取り)
 * ピンセット
+* 滑り止めシート
 
 ## リセットスイッチ、TRRSJACKの実装
 ProMicroのおうちにリセットスイッチとTRRSJACKをはんだ付けします。  
@@ -168,7 +233,7 @@ LEDの信号線はDataOut(DO)→DataIn(DI)にひたすら配線していきま�
 LED信号線の回し方も手配線ならではの工夫ポイントです。  
 例えばHelixの場合、横方向にジグザクですし、Crkbdの場合縦のジグザグです。  
 無限の可能性の場合、横方向にジグザグのほうが配線は楽ですが、  
-自分はよりHelixらしく(？)螺旋状に信号線を回すことをおすすめしています。
+自分は螺旋状に信号線を回すことをおすすめしています。
 
 具体的には右手の場合、  
 「L→J→U→P→?→N→6→\→」→親指」です。  
@@ -199,6 +264,7 @@ VCC、GND、TX0から最初のキーのDIをつなげてUSBを指してくださ
 さていよいよ仕上げ工程です!
 配線は以下のとおりです。
 
+### Colosseum60
 | ProMicro側 | 左手プレート | 右手プレート |
 | -- | -- | -- |
 | LED | LED信号線始点 | LED信号線始点 |
@@ -215,6 +281,23 @@ VCC、GND、TX0から最初のキーのDIをつなげてUSBを指してくださ
 | A0 | 9のCol | 2のCol |
 | 15 | 0のCol | 1のCol |
 | 14 | \のCol | EscのCol |
+
+### Colosseum44
+| ProMicro側 | 左手プレート | 右手プレート |
+| -- | -- | -- |
+| LED | LED信号線始点 | LED信号線始点 |
+| +(どこからでも) | VCCの始点 | VCCの始点 |
+| -(どこからでも) | GNDの始点 | GNDの始点 |
+| 5  | YのRow | TのRow |
+| 6  | HのROW | GのRow |
+| 7  | NのROW | BのRow |
+| 8  | 親指一番端っこのRow | 親指一番端っこのRow |
+| A3 | YのCol | TのCol |
+| A2 | UのCol | RのCol |
+| A1 | IのCol | EのCol |
+| A0 | OのCol | WのCol |
+| 15 | PのCol | QのCol |
+| 14 | =のCol | TabのCol |
 
 ![promicro home](images/09.promicro.jpg)
 
