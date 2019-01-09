@@ -182,7 +182,8 @@ LEDが壊れていないか、スイッチが動作するか、ダイオード�
 さぁここからが本番(?)です。  
 全体の配線図はColosseumの神こと@Salicylic_acid3さんに作っていただきました。  
 以下を参考にしてください。
- [配線図](https://github.com/swanmatch/colosseum60/tree/master/diaglams)
+
+ [配線図](https://github.com/swanmatch/colosseum60/tree/master/diagrams)
 
 まずはキーマトリックス回路を実装します。  
 特に難しいことはなく、R(Row)とC(Col)をはんだ付けしていきます。  
