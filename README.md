@@ -288,10 +288,10 @@ VCC、GND、TX0から最初のキーのDIをつなげてUSBを指してくださ
 | LED | LED信号線始点 | LED信号線始点 |
 | +(どこからでも) | VCCの始点 | VCCの始点 |
 | -(どこからでも) | GNDの始点 | GNDの始点 |
-| 5  | YのRow | TのRow |
-| 6  | HのROW | GのRow |
-| 7  | NのROW | BのRow |
-| 8  | 親指一番端っこのRow | 親指一番端っこのRow |
+| 4  | YのRow | TのRow |
+| 5  | HのROW | GのRow |
+| 6  | NのROW | BのRow |
+| 7  | 親指一番端っこのRow | 親指一番端っこのRow |
 | A3 | YのCol | TのCol |
 | A2 | UのCol | RのCol |
 | A1 | IのCol | EのCol |
