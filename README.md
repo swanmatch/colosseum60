@@ -275,12 +275,12 @@ VCC、GND、TX0から最初のキーのDIをつなげてUSBを指してくださ
 | 6  | HのROW | GのRow |
 | 7  | NのROW | BのRow |
 | 8  | 親指一番端っこのRow | 親指一番端っこのRow |
-| A3 | 6のCol | 5のCol |
-| A2 | 7のCol | 4のCol |
-| A1 | 8のCol | 3のCol |
-| A0 | 9のCol | 2のCol |
-| 15 | 0のCol | 1のCol |
-| 14 | \のCol | EscのCol |
+| 14 | 6のCol | 5のCol |
+| 15 | 7のCol | 4のCol |
+| A0 | 8のCol | 3のCol |
+| A1 | 9のCol | 2のCol |
+| A2 | 0のCol | 1のCol |
+| A3 | \のCol | EscのCol |
 
 ### Colosseum44
 | ProMicro側 | 左手プレート | 右手プレート |
@@ -292,12 +292,12 @@ VCC、GND、TX0から最初のキーのDIをつなげてUSBを指してくださ
 | 5  | HのROW | GのRow |
 | 6  | NのROW | BのRow |
 | 7  | 親指一番端っこのRow | 親指一番端っこのRow |
-| A3 | YのCol | TのCol |
-| A2 | UのCol | RのCol |
-| A1 | IのCol | EのCol |
-| A0 | OのCol | WのCol |
-| 15 | PのCol | QのCol |
-| 14 | =のCol | TabのCol |
+| 14 | YのCol | TのCol |
+| 15 | UのCol | RのCol |
+| A0 | IのCol | EのCol |
+| A1 | OのCol | WのCol |
+| A2 | PのCol | QのCol |
+| A3 | =のCol | TabのCol |
 
 ![promicro home](images/09.promicro.jpg)
 
