@@ -265,39 +265,39 @@ VCC、GND、TX0から最初のキーのDIをつなげてUSBを指してくださ
 配線は以下のとおりです。
 
 ### Colosseum60
-| ProMicro側 | 左手プレート | 右手プレート |
+| ProMicro側 | 右手プレート | 左手プレート |
 | -- | -- | -- |
 | LED | LED信号線始点 | LED信号線始点 |
 | +(どこからでも) | VCCの始点 | VCCの始点 |
 | -(どこからでも) | GNDの始点 | GNDの始点 |
-| 4  | 6のRow | 5のRow |
-| 5  | YのRow | TのRow |
-| 6  | HのROW | GのRow |
-| 7  | NのROW | BのRow |
+| 4  | 5のRow | 6のRow |
+| 5  | TのRow | YのRow |
+| 6  | GのRow | HのROW |
+| 7  | BのRow | NのROW |
 | 8  | 親指一番端っこのRow | 親指一番端っこのRow |
-| 14 | 6のCol | 5のCol |
-| 15 | 7のCol | 4のCol |
-| A0 | 8のCol | 3のCol |
-| A1 | 9のCol | 2のCol |
-| A2 | 0のCol | 1のCol |
-| A3 | \のCol | EscのCol |
+| A3 | EscのCol | \のCol |
+| A2 | 1のCol | 0のCol |
+| A1 | 2のCol | 9のCol |
+| A0 | 3のCol | 8のCol |
+| 15 | 4のCol | 7のCol |
+| 14 | 5のCol | 6のCol |
 
 ### Colosseum44
-| ProMicro側 | 左手プレート | 右手プレート |
+| ProMicro側 | 右手プレート | 左手プレート |
 | -- | -- | -- |
 | LED | LED信号線始点 | LED信号線始点 |
 | +(どこからでも) | VCCの始点 | VCCの始点 |
 | -(どこからでも) | GNDの始点 | GNDの始点 |
-| 4  | YのRow | TのRow |
-| 5  | HのROW | GのRow |
-| 6  | NのROW | BのRow |
+| 4  | TのRow | YのRow |
+| 5  | GのRow | HのROW |
+| 6  | BのRow | NのROW |
 | 7  | 親指一番端っこのRow | 親指一番端っこのRow |
-| 14 | YのCol | TのCol |
-| 15 | UのCol | RのCol |
-| A0 | IのCol | EのCol |
-| A1 | OのCol | WのCol |
-| A2 | PのCol | QのCol |
-| A3 | =のCol | TabのCol |
+| A3 | TabのCol | =のCol |
+| A2 | QのCol | PのCol |
+| A1 | WのCol | OのCol |
+| A0 | EのCol | IのCol |
+| 15 | RのCol | UのCol |
+| 14 | TのCol | YのCol |
 
 ![promicro home](images/09.promicro.jpg)
 
