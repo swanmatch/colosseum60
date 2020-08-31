@@ -325,10 +325,14 @@ VCC、GND、TX0から最初のキーのDIをつなげてUSBを指してくださ
 お疲れ様でした!  
 最後にProMicroをおうちにはんだ付けして、ファームを書き込んで作業終了です。
 
+```sh
+git clone https://github.com/swanmatch/qmk_firmware.git --recursive
+cd qmk_firmware
+make amatelus73:default:avrdude
+```
+
 最終的にはこんな感じになります。
 ![finish](images/11.finish.jpg)
 
-ファームは以下で一応動くことを確認していますが、  
-あまり詳しくないので聞かないでください。  
-https://github.com/swanmatch/qmk/tree/master/keyboards/colosseum60
-
+↓ファームウェアのレポジトリ
+https://github.com/swanmatch/qmk_firmware/tree/master/keyboards/colosseum60
