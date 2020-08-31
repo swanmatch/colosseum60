@@ -328,11 +328,11 @@ VCC、GND、TX0から最初のキーのDIをつなげてUSBを指してくださ
 ```sh
 git clone https://github.com/swanmatch/qmk_firmware.git --recursive
 cd qmk_firmware
-make amatelus73:default:avrdude
+make colosseum60:swan:avrdude
 ```
 
 最終的にはこんな感じになります。
 ![finish](images/11.finish.jpg)
 
-↓ファームウェアのレポジトリ
+↓ファームウェアのレポジトリ  
 https://github.com/swanmatch/qmk_firmware/tree/master/keyboards/colosseum60
